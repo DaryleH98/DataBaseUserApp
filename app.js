@@ -1,4 +1,4 @@
-const CreateUser = document.querySelector('.CreateUser')
+const CreateUser = document.qetElementById('CreateUser')
 CreateUser.addEventListener('submit', (e) => {
   e.preventDefault()
   const username = CreateUser.querySelector('.username').value
