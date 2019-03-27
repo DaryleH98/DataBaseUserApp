@@ -1,0 +1,25 @@
+{
+  "name": "databaseuserapp",
+  "version": "1.0.0",
+  "description": "This an app that stimulates creating and logging in users implemented using NodeJS, MySQL and Knex.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaryleH98/DataBaseUserApp.git"
+  },
+  "author": "Daryle Henry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaryleH98/DataBaseUserApp/issues"
+  },
+  "homepage": "https://github.com/DaryleH98/DataBaseUserApp#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "github:mysqljs/mysql"
+  },
+  "devDependencies": {}
+}
