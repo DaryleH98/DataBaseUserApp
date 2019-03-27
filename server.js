@@ -41,6 +41,27 @@ app.get('/createpoststable', (req, res) => {
   });
 });
 
+app.get('/addpost1', (req, res) => {
+  let post = {title:'Post One', body: 'This is post number one'};
+  let sql = 'INSERT INTO posts SET ?';
+  let query = db.query(sql, post, (err, result) => {
+    if(err) throw err;
+    console.log(result);
+    res.send('Posts 1 added....');
+  });
+});
+
+app.get('/addpost2', (req, res) => {
+  let post = {title:'Post One', body: 'This is post number two'};
+  let sql = 'INSERT INTO posts SET ?';
+  let query = db.query(sql, post, (err, result) => {
+    if(err) throw err;
+    console.log(result);
+    res.send('Posts 2 added....');
+  });
+});
+
+
 const PORT = ('port', process.env.PORT || 3000);
 app.listen(PORT, () => {
     console.log(`Listening on port ${PORT}`);
@@ -49,8 +70,8 @@ app.listen(PORT, () => {
 
 
 app.use(express.static(__dirname + '/public'));
-
 app.use(bodyParser.json());
+
 app.post('/createUser', (req, res) => {
   store
     .createUser({
