@@ -1,7 +1,7 @@
 {
   "name": "databaseuserapp",
   "version": "1.0.0",
-  "description": "This an app that stimulates creating and logging in users implemented using NodeJS, MySQL and Knex.",
+  "description": "This an app that stimulates creating and logging in users implemented using NodeJS, MySQL and Express.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
