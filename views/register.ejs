@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Database Stimulation</title>
+</head>
+<body>
+    <form id="CreateUser" method="POST" action="/users/subregister">   <!---- Post request to /users/subregister that lives on the server BUT THE REQUEST OBJECT DOES NOT HANDLE IT HENCE WE NEED TO PASS IN MIDDLEWARE-->
+        <h1>Register for an Account here</h1>
+        <input type="text" name="username" placeholder="username" id="username">
+        <input type="text" name="password" placeholder="password" id="password"  >
+        <input type="submit" value="Create user">
+    </form>
+</body>
+</html>
