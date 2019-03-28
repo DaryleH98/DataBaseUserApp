@@ -56,4 +56,4 @@ app.listen(PORT, () => {
 
 //db.end();
 app.use("/", require("./routes/index"));
-app.use("/users", require("./routes/users"));
+app.use("/user_accounts", require("./routes/user_accounts"));
