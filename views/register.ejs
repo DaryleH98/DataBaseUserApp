@@ -7,7 +7,7 @@
     <title>Database Stimulation</title>
 </head>
 <body>
-    <form id="CreateUser" method="POST" action="/user_accounts/subregister">   <!---- Post request to /user_accounts/subregister that lives on the server BUT THE REQUEST OBJECT DOES NOT HANDLE IT HENCE WE NEED TO PASS IN MIDDLEWARE-->
+    <form id="CreateUser" method="POST" action="/user_accounts/register">   <!---- Post request to /user_accounts/register that lives on the server BUT THE REQUEST OBJECT DOES NOT HANDLE IT HENCE WE NEED TO PASS IN MIDDLEWARE-->
         <h1>Register for an Account here</h1>
         <input type="text" name="username" placeholder="username" id="username">
         <input type="password" name="password" placeholder="password" id="password"  >
