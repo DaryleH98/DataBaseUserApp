@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/DaryleH98/DataBaseUserApp#readme",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "mysql": "github:mysqljs/mysql"
   },
   "devDependencies": {}
